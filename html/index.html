@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head>
+<body>
+    <a href="PageImg.html"> Инструкция</a>
+    <hr />
+    <form action="" method="post">
+        <label>
+            ФИО <br />
+            <input type="text" placeholder="Фамилия" />
+            <input type="text" placeholder="Имя" />
+            <input type="text" placeholder="Отчество" />
+        </label>
+        <br>
+        <label>
+            Пол
+            <input name="gender" type="radio" value="male" /> М
+            <input name="gender" type="radio" value="famale" /> Ж
+        </label>
+        <br>
+        <label>
+            Краткая биография <br> <textarea name="biography"></textarea>
+        </label>
+        <br />
+        <label>
+            Категории водительских прав <br />
+            A <input name="cat_A" type="checkbox" />
+            B <input name="cat_B" type="checkbox" />
+            C <input name="cat_C" type="checkbox" />
+        </label>
+        <br />
+        <label>
+            Опыт вождения<br />
+            <select name="experience">
+                <option value="1">До 1 года</option>
+                <option value="2">Более 3х лет</option>
+                <option value="3">Более 10 лет</option>
+            </select>
+        </label>
+        <br />
+        <label>
+            Дополнительные курсы<br />
+            <select name="courses" multiple="multiple">
+                <option value="1">Экстремальное вождение</option>
+                <option value="2">Дрифт</option>
+                <option value="3">Парковка и ориентация на развязках</option>
+            </select>
+        </label>
+        <br />
+        <input type="button" id="sendData" name="sendData" value="Отправить" />
+    </form>
+</body>
+</html>
