@@ -1,0 +1,35 @@
+﻿body.text {
+    align-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+p1.text {
+    font-family: Arial;
+    font-size: 36px;
+}
+
+p {
+    font-family: Arial;
+    font-size: 12px;
+}
+
+div.text {
+    max-width: 850px;
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 5px;
+}
+
+ul.text {
+    list-style-type: none;
+    counter-reset: none;
+}
+
+a.text {
+    font-size: 24px;
+}
+
+    a.text[myAttr="blue-text"] {
+        color: #378db2;
+    }
